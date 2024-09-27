@@ -3,83 +3,70 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>SOC Analyst L2 Experience</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #f4f4f4;
-            margin: 0;
-            padding: 0;
-            text-align: center;
-        }
-        header {
-            background-color: #333;
-            color: white;
-            padding: 1rem 0;
-            margin-bottom: 20px;
-        }
-        section {
-            max-width: 800px;
-            margin: 0 auto;
-            padding: 20px;
-            background: white;
-            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-        }
-        h1 {
-            color: #333;
-        }
-        p {
-            text-align: left;
-            font-size: 1.1em;
-            line-height: 1.6;
-        }
-        footer {
-            margin-top: 40px;
-            padding: 20px;
-            background-color: #333;
-            color: white;
-        }
-    </style>
+    <title>Your Name | SOC Analyst Portfolio</title>
+    <!-- Link to CSS file -->
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <h1>Your Name</h1>
+        <p>SOC Analyst L2 with 3+ years of experience</p>
+    </header>
 
-<header>
-    <h1>Welcome to My SOC Analyst L2 Portfolio</h1>
-</header>
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc posuere auctor arcu, vitae porttitor nulla fermentum a. Integer aliquam, orci a ullamcorper vehicula, ex nulla convallis nisl, ut scelerisque nisl libero nec eros.</p>
+    </section>
 
-<section>
-    <h2>About Me</h2>
-    <p>
-        Hi, I'm <strong>Your Name</strong>, a Level 2 SOC Analyst with [X years] of experience in security monitoring, incident response, threat detection, and analysis. I'm passionate about cybersecurity and love working with advanced security tools to keep systems safe and secure.
-    </p>
+    <section id="experience">
+        <h2>Experience</h2>
+        <ul>
+            <li>
+                <h3>Company Name</h3>
+                <p>Position: SOC Analyst L2</p>
+                <p>Duration: Jan 2020 - Present</p>
+                <p>Responsibilities: Monitoring security alerts, incident response, threat hunting, etc.</p>
+            </li>
+            <!-- Repeat similar blocks for other experiences -->
+        </ul>
+    </section>
 
-    <h2>Key Skills</h2>
-    <ul>
-        <li>Threat Analysis and Incident Response</li>
-        <li>Log Analysis using SIEM tools (Splunk, QRadar, etc.)</li>
-        <li>Malware Analysis</li>
-        <li>Network Security Monitoring</li>
-        <li>Incident Reporting and Documentation</li>
-    </ul>
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project">
+            <h3>Project Title</h3>
+            <p>Description of the project, including the tools and technologies used.</p>
+            <a href="project-link">View Project</a>
+        </div>
+        <!-- Repeat similar blocks for other projects -->
+    </section>
 
-    <h2>Experience</h2>
-    <p>
-        In my role as an SOC Analyst L2, I’ve handled a variety of security incidents ranging from phishing attempts to malware outbreaks. My expertise lies in analyzing threat intelligence, responding to alerts, and improving detection strategies.
-    </p>
+    <section id="contact">
+        <h2>Contact</h2>
+        <form action="https://formspree.io/f/mayvdkao" method="POST">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
 
-    <h2>Certifications</h2>
-    <ul>
-        <li>CompTIA Security+</li>
-        <li>Certified SOC Analyst (CSA)</li>
-        <li>GIAC Certified Incident Handler (GCIH)</li>
-        <li>Splunk Certified User</li>
-    </ul>
-</section>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
 
-<footer>
-    <p>&copy; 2024 Your Name. All rights reserved.</p>
-</footer>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
 
+            <button type="submit">Send</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Your Name. All rights reserved.</p>
+    </footer>
 </body>
 </html>
