@@ -1,5 +1,8 @@
 title: "SOC Analyst L2 Portfolio"
 description: "My journey as an SOC Analyst L2, showcasing experience, skills, and projects."
-theme: jekyll-theme-hacker
 baseurl: ""  # Leave this empty for a GitHub Pages site
 url: "https://hamzarazzaq92505.github.io"  # Replace with your GitHub Pages URL
+
+theme: jekyll-theme-hacker
+plugins:
+  - jekyll-feed
